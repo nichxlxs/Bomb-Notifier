@@ -39,7 +39,7 @@ public class BombBellModule {
             String world = "WC" + matcher.group(4);
 
             // Construct the message to send to guild chat
-            String formattedMessage = String.format("%s %s has thrown a %s Bomb on %s", GUILD_CHAT_PREFIX, playerName, bombType, world);
+            String formattedMessage = String.format("%s %s Bomb on %s", GUILD_CHAT_PREFIX, bombType, world);
 
             // Insert the clickable chat message below the bomb bell message
             ITextComponent sendToGuildChatButton = new TextComponentString("[SEND TO GUILD]")
