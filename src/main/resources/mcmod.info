@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "bombnotifier",
+        "name": "Bomb Notifier",
+        "description": "A 1.12.2 forge mod created for Wynncraft Champions to alert guild members of new bombs that have been thrown.",
+        "version": "1.1",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["nicholxs"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
